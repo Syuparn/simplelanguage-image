@@ -1,0 +1,8 @@
+version : "3"
+services:
+  simplelanguage:
+    build: .
+    #tty: true
+    entrypoint: "sl hello.sl"
+    volumes:
+      - .:/app
